@@ -3,4 +3,5 @@ git clone https://github.com/JuanKAlvarez/control-de-gastos.git
 git status
 git add .
 git commit -m "mensage"
+git push -u origin master
 git push -u origin main

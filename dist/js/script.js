@@ -1,5 +1,5 @@
 function ch(urlHijo) {
-    print("Hola");
+    console.log("Hola");
     $.ajax({
         type: "POST",
         url: urlHijo,

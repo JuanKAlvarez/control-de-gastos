@@ -71,8 +71,8 @@ echo "hola";
             <nav class="mt-2">
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- Dashboard -->
-                <li class="nav-item active">
-                    <a href="index.html" class="nav-link">
+                <li  OnClick="ch('pages/dashboard')" class="nav-item active">
+                    <a  href="#" class="nav-link">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>Dashboard</p>
                     </a>
@@ -128,7 +128,7 @@ echo "hola";
         </aside>
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
+        <div id="qa" class="content-wrapper">
 
         </div>
 
@@ -167,6 +167,7 @@ echo "hola";
         <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
         <!-- AdminLTE App -->
         <script src="dist/js/adminlte.js"></script> 
+        <script src="dist/js/script.js"></script> 
     </div> 
 </body>
 </html>
